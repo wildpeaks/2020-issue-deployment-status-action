@@ -1,0 +1,9 @@
+name: Notify
+on: deployment_status
+jobs:
+
+  notify_success:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Called
+        run: echo "The action was called"
