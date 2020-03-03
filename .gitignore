@@ -1,0 +1,20 @@
+# Ignore everything by default:
+/*
+/*/
+
+# But allow these files and folders:
+!/LICENSE
+!/README.md
+!/.editorconfig
+!/.gitattributes
+!/.gitignore
+!/.github
+
+# But make sure to ignore these regardless:
+.env
+.DS_Store
+Thumbs.db
+*.lnk
+*.url
+TODO *
+OLD *
